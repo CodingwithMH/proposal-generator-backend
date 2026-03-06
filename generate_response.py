@@ -7,7 +7,7 @@ import json
 load_dotenv(find_dotenv())
 set_tracing_disabled(disabled=True)
 external_client: AsyncOpenAI = AsyncOpenAI(
-    api_key=os.getenv("GEMINI_API_KEY1"),
+    api_key=os.getenv("GEMINI_API_KEY3"),
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
 )
 
